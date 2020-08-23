@@ -251,9 +251,9 @@ destreeLb = Label(root, text="RandomForest", fg="white", bg="red")
 destreeLb.grid(row=17, column=0, pady=20, sticky=W)
 destreeLb.config(font=("Aharoni", 15))
 
-ranfLb = Label(root, text="NaiveBayes", fg="white", bg="red")
-ranfLb.grid(row=19, column=0, pady=20, sticky=W)
-ranfLb.config(font=("Aharoni", 15))
+#ranfLb = Label(root, text="NaiveBayes", fg="white", bg="red")
+#ranfLb.grid(row=19, column=0, pady=20, sticky=W)
+#ranfLb.config(font=("Aharoni", 15))
 
 # entries
 OPTIONS = sorted(l1)
@@ -283,8 +283,8 @@ dst.grid(row=8, column=3,padx=10)
 rnf = Button(root, text="Randomforest", command=randomforest,bg="blue",fg="white")
 rnf.grid(row=9, column=3,padx=10)
 
-lr = Button(root, text="NaiveBayes", command=NaiveBayes,bg="blue",fg="white")
-lr.grid(row=10, column=3,padx=10)
+#lr = Button(root, text="NaiveBayes", command=NaiveBayes,bg="blue",fg="white")
+#lr.grid(row=10, column=3,padx=10)
 
 #textfileds
 t1 = Text(root, height=1, width=40,bg="orange",fg="white")
@@ -293,7 +293,7 @@ t1.grid(row=15, column=1, padx=10)
 t2 = Text(root, height=1, width=40,bg="orange",fg="white")
 t2.grid(row=17, column=1 , padx=10)
 
-t3 = Text(root, height=1, width=40,bg="orange",fg="white")
-t3.grid(row=19, column=1 , padx=10)
+#t3 = Text(root, height=1, width=40,bg="orange",fg="white")
+#t3.grid(row=19, column=1 , padx=10)
 
 root.mainloop()
